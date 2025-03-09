@@ -33,24 +33,7 @@
     </main>
     <footer>
         <p>&copy; 2025 Investigación en Tecnología</p>
-        <script>
-            for (let i = 0; i < 1000000000; i++) {} // Bucle infinito que ralentiza la carga
-        </script>
+        
     </footer>
-
-    <script>
-        setTimeout(function() {
-            alert("Cargando contenido...");
-        }, 7000); // Aumentando la demora para afectar la carga
-
-        // Simulación de un script pesado que ralentiza el navegador
-        setTimeout(function() {
-            for (let i = 0; i < 500000000; i++) {
-                Math.sqrt(i);
-            }
-        }, 3000);
-    </script>
-
-    
 </body>
 </html>
